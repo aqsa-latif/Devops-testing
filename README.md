@@ -1,2 +1,15 @@
-# Devops-testing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Testing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Hi, I'm Aqsa</h1>
+  <p>This is my first DevOps testing page.</p>
+  <script src="script.js"></script>
+</body>
+</html># Devops-testing
 my first devops testing.

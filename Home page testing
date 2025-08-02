@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aqsa's Krazy home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hi, I'm Aqsa 👺</h1>
+    <p>Welcome to my chaotic testing universe.</p>
+    <button>Click me if you're brave enough</button>
+  </div>
+</body>
+</html>

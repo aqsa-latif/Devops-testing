@@ -1,4 +1,8 @@
 body {
+  background: url('https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}body {
   background-color: #0d0d0d;
   color: #ffccff;
   font-family: 'Comic Sans MS', cursive, sans-serif;

@@ -2,26 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Aqsa's Krazy Home</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Hi, I'm Aqsa</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #ff69b4;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    #brave-text {
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px #ff00ff;
+    }
+    #gif-container {
+      display: none;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 350px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px #ff00ff;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Hi, I'm Aqsa 👺😝</h1>
-    <p>Welcome to my chaotic testing universe.</p>
-    <button>Click me if you're brave enough</button>
+
+  <h1>Hi, I'm Aqsa</h1>
+  <p>This is my first DevOps test.</p>
+
+  <p id="brave-text" onclick="showGif()">Click me if you're brave enough 😈</p>
+
+  <div id="gif-container">
+    <img src="https://media.giphy.com/media/uhfbD8nVRlbTPIhpcu/giphy.gif" alt="Karan Aujla GIF">
   </div>
+
+  <script>
+    function showGif() {
+      document.getElementById('gif-container').style.display = 'block';
+    }
+  </script>
+
 </body>
 </html>
-<p id="brave-text" onclick="showGif()" style="cursor: pointer; color: hotpink; font-weight: bold; font-size: 20px; text-align: center;">
-  Click me if you're brave enough
-</p>
-
-<div id="gif-container" style="display: none; margin-top: 20px; text-align: center;">
-  <img src="https://media.giphy.com/media/uhfbD8nVRlbTPIhpcu/giphy.gif" alt="Karan Aujla GIF" style="max-width: 350px; border-radius: 15px; box-shadow: 0px 0px 20px #ff00ff;">
-</div><script>
-  function showGif() {
-    const gifContainer = document.getElementById('gif-container');
-    gifContainer.style.display = 'block';
-  }
-</script>

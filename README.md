@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DevOps Testing</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Aqsa's Krazy Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hi, I'm Aqsa</h1>
-  <p>This is my first DevOps testing page.</p>
-  <script src="script.js"></script>
+  <div class="container">
+    <h1>Hi, I'm Aqsa 😈💖</h1>
+    <p>Welcome to my chaotic testing universe.</p>
+    <button>Click me if you're brave enough</button>
+  </div>
 </body>
-</html># Devops-testing
-my first devops testing.
+</html>
